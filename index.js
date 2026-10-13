@@ -10,7 +10,6 @@ let arrayBidimensional = [[0,1,2],[`a`,`b`,`c`]]
 function suma(a,b) {
     return a+b
 }
-
 //6. 
 function potenciacion (a,b) {
     return (a^b)
@@ -42,5 +41,22 @@ function esPrimo (number) {
 }
 //10.
 function ordenarArray (array){
- 
+    return array.sort((a,b)=>a-b)
 }
+//11.
+function obtenerPares (array){
+    return array.filter(numero=> numero % 2 == 0)
+}
+//12.
+function pintarArray(array) {
+  let texto = "["
+  for (let i = 0; i < array.length; i++) {
+    texto = texto + array[i]
+    if (i < array.length - 1) {
+      texto = texto + ", "
+    }
+  }
+  texto = texto + "]"
+  return texto
+}
+
