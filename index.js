@@ -94,10 +94,19 @@ let arrayNumerosNeg =[0,-1,-2,-3,-4,-5,-6,-7,-8,-9]
 //16.
 let holaMundo = ["Hola","Mundo"]
 //17.
-let loGuardoTodo = [["hola"]["que"]23, 42.33]
+let loGuardoTodo = ["hola""que" 23, 42.33 "tal"]
 //18.
 let arrayDeArrays = [[756,"nombre"],[225,"apellido"],[298,"direccion"]]
 //19.
 function multiplicacion (a,b) {
-    return 
+    return a * b
+}
+
+//20
+function division (a,b) {
+    return a / b
+}
+//21
+function esPar (a) {
+    return (true === 0)
 }
