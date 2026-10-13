@@ -16,10 +16,19 @@ function potenciacion (a,b) {
     return (a^b)
 }
 //7.
-function separarPalabras (string) {
-    return [hola,mundo]
+function separarPalabras(string) {
+  return string.split(" ")
 }
 //8.
-function repetirString ((string),(Number)) {
-    return ()
+function repetirString (string, number) {
+    let resultado = ""
+    for (let i=0; i<number; i++) {
+        resultado =resultado + string
+    }
+    return resultado
+}
+//9.
+function esPrimo (number) {
+    if (number === 0)
+        console.log( esPrimo === false)
 }
