@@ -29,6 +29,18 @@ function repetirString (string, number) {
 }
 //9.
 function esPrimo (number) {
-    if (number === 0)
-        console.log( esPrimo === false)
+    if (number <2){
+         return(false)
+
+    }
+   for (let i= 2; i< number; i++) {
+    if (number % i === 0) {
+        return false
+    }
+   }
+   return true 
+}
+//10.
+function ordenarArray (array){
+ 
 }
