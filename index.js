@@ -94,7 +94,7 @@ let arrayNumerosNeg =[0,-1,-2,-3,-4,-5,-6,-7,-8,-9]
 //16.
 let holaMundo = ["Hola","Mundo"]
 //17.
-let loGuardoTodo = ["hola""que" 23, 42.33 "tal"]
+let loGuardoTodo = ["hola", "que", 23, 42.33, "tal"]
 //18.
 let arrayDeArrays = [[756,"nombre"],[225,"apellido"],[298,"direccion"]]
 //19.
@@ -108,7 +108,7 @@ function division (a,b) {
 }
 //21.
 function esPar (a) {
-    return (numero % 2 === 0)
+    return (a % 2 === 0)
 }
 //22.
 function resta (a,b){
@@ -117,9 +117,9 @@ function resta (a,b){
 let arrayfunciones = [suma, resta ,multiplicacion]
 //23.
 function ordenarArray2 (array) {
-    return array.sort(a,b) {
+    return array.sort(function (a,b) {
         return b - a
-    }
+    })
 }
 //24.
 function obtenerImpares (array){
@@ -131,4 +131,18 @@ function obtenerImpares (array){
 return resultado
 }
 //25.
-function sumarArray
+function sumarArray (array){
+    let resultado = 0
+    for (let i=0; i< array.length; i++){
+        resultado = resultado + array[i]
+}
+return resultado
+}
+//26.
+function multiplicarArray (array){
+    let resultado = 1
+    for (let i=0; i<array.length; i++){
+        resultado = resultado * array[i]
+    }
+    return resultado
+}
