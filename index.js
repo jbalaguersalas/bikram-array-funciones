@@ -102,11 +102,28 @@ function multiplicacion (a,b) {
     return a * b
 }
 
-//20
+//20.
 function division (a,b) {
     return a / b
 }
-//21
+//21.
 function esPar (a) {
-    return (true === 0)
+    return (numero % 2 === 0)
+}
+//22.
+function resta (a,b){
+    return a-b
+}
+let arrayfunciones = [suma, resta ,multiplicacion]
+//23.
+function ordenarArray2 (array) {
+    return array.sort(a,b) {
+        return b - a
+    }
+}
+//24.
+function obtenerImpares (array){
+    let resultado = []
+    for (let i = 0; i< array.length; i++)
+        if (array[i]% 2 !== 0)
 }
