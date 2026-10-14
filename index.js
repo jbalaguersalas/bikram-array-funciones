@@ -124,6 +124,11 @@ function ordenarArray2 (array) {
 //24.
 function obtenerImpares (array){
     let resultado = []
-    for (let i = 0; i< array.length; i++)
+    for (let i = 0; i< array.length; i++){
         if (array[i]% 2 !== 0)
+            resultado.push(array[i])
 }
+return resultado
+}
+//25.
+function sumarArray
