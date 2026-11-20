@@ -1,8 +1,30 @@
+# Bikram de arrays y funciones
+
+26 ejercicios de JavaScript del bootcamp Full Stack de The Bridge para practicar arrays, funciones y la forma de combinarlos. Las soluciones están en `index.js`.
+
+## Qué he resuelto
+
+- **Arrays (1-4 y 15-18):** un array vacío, números del 0 al 9, pares, negativos, textos y números mezclados, y arrays dentro de arrays.
+- **Funciones (5-9 y 19-22):** `suma`, `potenciacion`, `multiplicacion`, `division`, `esPar`, `separarPalabras` con `split(" ")`, `repetirString` y `esPrimo`. En el 22 guardo `suma`, `resta` y `multiplicacion` dentro de un array.
+- **Arrays y funciones juntos (10-14 y 23-26):** ordenar de menor a mayor y de mayor a menor con `sort`, sacar pares e impares, convertir un array en el texto `'[0, 1, 2]'`, escribir mi propio `map` (`arrayMapi`), quitar duplicados, y sumar o multiplicar todos los números de un array.
+
+## Cómo probarlo
+
+Abre `index.html` en el navegador. Carga Jasmine desde internet, pasa los tests de `JS/index.spec.js` sobre mi `index.js` y marca en verde los que pasan.
+
+## Qué he aprendido
+
+- `sort()` sin argumentos ordena los números como si fueran texto. Para ordenarlos por valor le paso una función: `return a - b` para ir de menor a mayor y `return b - a` para ir de mayor a menor.
+- Una función puede recibir otra función como argumento. En `arrayMapi(array, funcion)` llamo a `funcion(array[i])` con cada elemento y guardo lo que devuelve. Eso es lo que hace `map` por dentro.
+- Para quitar duplicados recorro el array y solo meto un elemento en el resultado si `resultado.includes(array[i])` da `false`.
+
+## Enunciado original
+
 ![logotipo de The Bridge](https://user-images.githubusercontent.com/27650532/77754601-e8365180-702b-11ea-8bed-5bc14a43f869.png  "logotipo de The Bridge")
 
-# :european_castle: :crossed_swords: Bikram #
+### :european_castle: :crossed_swords: Bikram #
 
-## Introducción ##
+#### Introducción ##
 Un bikram es una combinación de 26 ejercicios de programación para perfeccionar la conexión entre el programador interior que llevas dentro y el alma del lenguaje de programación. Aprovecha los checkboxes en el enunciado para ir marcando que ejercicios llevas realizados.
 
 Estas 26 pruebas cubren un espectro de dificultad incremental, dotada de tests que cubrirán la correcta resolución para ayudarte a encontrar posibles errores en tu código.
@@ -11,9 +33,9 @@ La soluciones a los bikrams deberán hacerse en **./index.js** y tienen que subi
 
 En esta ocasión, el bikram se dividirá en :crossed_swords: Pair Programming :crossed_swords: y :european_castle: proyecto individual :european_castle:
 
-## Iteraciones :crossed_swords: Pair Programming :crossed_swords: ##
+#### Iteraciones :crossed_swords: Pair Programming :crossed_swords: ##
 
-### Arrays ###
+##### Arrays ###
 
 - [ ] 1.- Crear variable de nombre **arrayVacio** cuyo valor sea **un array vacío**
 
@@ -23,7 +45,7 @@ En esta ocasión, el bikram se dividirá en :crossed_swords: Pair Programming :c
 
 - [ ] 4.- Crear variable de nombre **arrayBidimensional** declarada con valor **array [[0, 1, 2], ['a', 'b', 'c']]**
 
-### Funciones ###
+##### Funciones ###
 
 - [ ] 5.- Crea la función **suma** que acepte como argumento **dos números** y devuelva **el resultado de su suma**
 
@@ -35,7 +57,7 @@ En esta ocasión, el bikram se dividirá en :crossed_swords: Pair Programming :c
 
 - [ ] 9.- Crea la función **esPrimo** que acepte como argumento **un número** y devuelva ****true si es primo y false si no lo es****
 
-### Mezclando arrays y funciones ###
+##### Mezclando arrays y funciones ###
 
 - [ ] 10.-  Crear la función **ordenarArray** que acepta como argumento **un array de números** y devuelva un **array ordenado de menor a mayor**
 
@@ -47,9 +69,9 @@ En esta ocasión, el bikram se dividirá en :crossed_swords: Pair Programming :c
 
 - [ ] 14.- Crear la función **eliminarDuplicados** que acepte como argumento **un array** y devuelva **un array en el que se hayan eliminado los duplicados**
 
-## Iteraciones :european_castle: proyecto :european_castle: ##
+#### Iteraciones :european_castle: proyecto :european_castle: ##
 
-### Arrays ###
+##### Arrays ###
 
 - [ ] 15.- Crear variable de nombre **arrayNumerosNeg** declarada con un **array de números del 0 al -9 (0, -1, -2...)**
 
@@ -59,7 +81,7 @@ En esta ocasión, el bikram se dividirá en :crossed_swords: Pair Programming :c
 
 - [ ] 18.- Crear variable de nombre **arrayDeArrays** declarada con valor **array: [[756, 'nombre'], [225, 'apellido'], [298, 'direccion']]**
 
-### Funciones ###
+##### Funciones ###
 
 - [ ] 19.- Crea la función **multiplicacion** que acepte como argumento **dos números** y devuelva **el resultado de su multiplicación**
 
@@ -69,7 +91,7 @@ En esta ocasión, el bikram se dividirá en :crossed_swords: Pair Programming :c
 
 - [ ] 22.- Crea el array **arrayFunciones** que tenga como valor **las funciones: suma, resta y multiplicación (todas aceptan 2 números como argumento y devuelve el resultado de su operación)**
 
-### Mezclando arrays y funciones ###
+##### Mezclando arrays y funciones ###
 
 - [ ] 23.-  Crear la función **ordenarArray2** que acepta como argumento **un array de números** y devuelva un **array ordenado de mayor a menor**
 
