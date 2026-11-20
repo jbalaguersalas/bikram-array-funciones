@@ -12,12 +12,6 @@
 
 Abre `index.html` en el navegador. Carga Jasmine desde internet, pasa los tests de `JS/index.spec.js` sobre mi `index.js` y marca en verde los que pasan.
 
-## Qué he aprendido
-
-- `sort()` sin argumentos ordena los números como si fueran texto. Para ordenarlos por valor le paso una función: `return a - b` para ir de menor a mayor y `return b - a` para ir de mayor a menor.
-- Una función puede recibir otra función como argumento. En `arrayMapi(array, funcion)` llamo a `funcion(array[i])` con cada elemento y guardo lo que devuelve. Eso es lo que hace `map` por dentro.
-- Para quitar duplicados recorro el array y solo meto un elemento en el resultado si `resultado.includes(array[i])` da `false`.
-
 ## Enunciado original
 
 ![logotipo de The Bridge](https://user-images.githubusercontent.com/27650532/77754601-e8365180-702b-11ea-8bed-5bc14a43f869.png  "logotipo de The Bridge")
